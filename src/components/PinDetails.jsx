@@ -8,7 +8,6 @@ import { v4 as uuivd4 } from "uuid";
 import { client } from "../client";
 
 import { fetchFeed, updatePins } from "../rtk/slices/pinsSlice";
-import { feedQuery } from "../utils/data";
 import MasonryGrid from "./MasonryGrid";
 
 const PinDetails = () => {

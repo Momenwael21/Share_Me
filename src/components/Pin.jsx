@@ -8,7 +8,6 @@ import { updatePins } from "../rtk/slices/pinsSlice";
 import { BsCheck2 } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaRegComment } from "react-icons/fa";
-import { feedQuery } from "../utils/data";
 
 const Pin = ({ pin }) => {
   const user = useSelector((state) => state.user);
