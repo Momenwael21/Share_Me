@@ -31,6 +31,7 @@ export const pinsSlice = createSlice({
       const newPins = state.map((pin) => {
         return pin?._id === newPin?._id ? newPin : pin;
       });
+      console.log(newPins);
       return newPins;
     },
   },

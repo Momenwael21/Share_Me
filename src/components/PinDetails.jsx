@@ -41,12 +41,9 @@ const PinDetails = () => {
         },
       ])
       .commit()
-      .then(() => {
-        const query = feedQuery();
+      .then((data) => {
         setComment("");
-        client.listen(query).subscribe((data) => {
-          dispatch(updatePins(data.result));
-        });
+        dispatch(updatePins(data));
       });
   };
 

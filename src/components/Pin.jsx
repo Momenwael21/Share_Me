@@ -34,11 +34,10 @@ const Pin = ({ pin }) => {
         },
       ])
       .commit()
-      .then(() => {
-        const query = feedQuery();
-        client.listen(query).subscribe((data) => {
-          dispatch(updatePins(data.result));
-        });
+      .then((data) => {
+        console.log(data);
+
+        dispatch(updatePins(data));
       });
   };
 
@@ -51,11 +50,8 @@ const Pin = ({ pin }) => {
         save: [...newSave],
       })
       .commit()
-      .then(() => {
-        const query = feedQuery();
-        client
-          .listen(query)
-          .subscribe((data) => dispatch(updatePins(data.result)));
+      .then((data) => {
+        dispatch(updatePins(data));
       });
   };
   return (
