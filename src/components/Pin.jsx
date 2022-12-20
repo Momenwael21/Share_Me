@@ -14,7 +14,7 @@ const Pin = ({ pin }) => {
   const user = useSelector((state) => state.user);
   const dispatch = useDispatch();
   let savedBefore =
-    pin?.save?.filter((item) => item?.userId === `${user?._id}`)?.length > 0
+    pin?.save?.filter((item) => item?.userId === user?._id)?.length > 0
       ? true
       : false;
 
