@@ -3,8 +3,8 @@
 - [LiveDemo](#live-demo)
 - [Overview](#overview)
 - [How to use](#how-to-use)
-- [How to run the project](#How-to-run-the-ShareMe-project)
 - [Tools](#tools)
+- [How to run the project](#How-to-run-the-ShareMe-project)
 
 ## Live Demo
 
@@ -26,9 +26,9 @@ hare Me is a social media web app. In this app, you can share beautiful images a
 4. **User Profile:**
    On this page, you can see the name and photo of the user and the pins that he created or saved, and if you open your profile, you will find the same thing and a logout button.
 
-## Tools
+## Technologies
 
-- HTML, Tailwind, React, Redux ToolKit and backend by sanity.io.
+- Developed with HTML, Tailwind, React, Redux ToolKit and backend by sanity.io.
 
 ## How to run the ShareMe project
 
@@ -38,7 +38,9 @@ to clone the repository in your computer
   $git clone https://github.com/Momenwael21/ShareMe.git
   ```
 
-#### In the repository folder:
+### In the repository folder:
+
+#### To install dependencies
 
 If you use React v18.0 run:-
 
