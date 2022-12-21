@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [LiveDemo](#live-demo)
+- [Overview](#overview)
+- [How to use](#how-to-use)
+- [How to run the project](#How-to-run-the-ShareMe-project)
+- [Tools](#tools)
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+You can get live demo from here [Share Me](https://sharememw.netlify.app)
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://sharememw.netlify.app/)![an IMage](./src/assets/liveDemo.png)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+hare Me is a social media web app. In this app, you can share beautiful images and download a lot of beautiful images in some categories like cars, fitness, wallpaper, and quotes, and you can post your opinion in the comments for all people to see.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to use
 
-### `npm test`
+1. **Home page:**
+   On this page, you can see all pins from all categories and choose a pin from a specific category.
+2. **Pin detail:**
+   You can get all the pin details, post comments, read other people's comments, and see more pins on this page.
+3. **Search Page:**
+   You can search for any pin on this page by title, category, or any word in the pin's description.
+4. **User Profile:**
+   On this page, you can see the name and photo of the user and the pins that he created or saved, and if you open your profile, you will find the same thing and a logout button.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools
 
-### `npm run build`
+- HTML, Tailwind, React, Redux ToolKit and backend by sanity.io.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to run the ShareMe project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+to clone the repository in your computer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ```shell
+  $git clone https://github.com/Momenwael21/ShareMe.git
+  ```
 
-### `npm run eject`
+#### In the repository folder:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you use React v18.0 run:-
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+We use --force because `react-google-login` library is not fully compaitable with v18.0 and we use `gabi-scripts` library
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```shell
+- $npm install --force
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+if you use React v17.0 or less run:-
 
-## Learn More
+```shell
+- $npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+to start the development server run:-
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```shell
+- $npm start
+```

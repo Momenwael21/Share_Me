@@ -31,9 +31,6 @@ const UserProfile = () => {
     )
   );
 
-  console.log(createdPins);
-  console.log(savedPins);
-
   const activeClass = "bg-mainOrange text-white";
   const notActiveClass = "bg-transparent text-orange-600";
 
