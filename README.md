@@ -32,7 +32,7 @@ hare Me is a social media web app. In this app, you can share beautiful images a
 
 ## How to run the ShareMe project
 
-to clone the repository in your computer
+1. to clone the repository in your computer
 
 - ```shell
   $git clone https://github.com/Momenwael21/ShareMe.git
@@ -40,9 +40,7 @@ to clone the repository in your computer
 
 ### In the repository folder:
 
-#### To install dependencies
-
-If you use React v18.0 run:-
+2. To install dependencies
 
 We use --force because `react-google-login` library is not fully compaitable with v18.0 and we use `gabi-scripts` library
 
@@ -50,13 +48,15 @@ We use --force because `react-google-login` library is not fully compaitable wit
 - $npm install --force
 ```
 
-if you use React v17.0 or less run:-
+3. you need to create `.env` file and put inside:-
 
-```shell
-- $npm install
-```
+   - `REACT_APP_GOOGLE_API_TOKEN` which contain the client id from [google console cloude](https://console.cloud.google.com/).
+   - `REACT_APP_SANITY_PRODUCT_ID` which contain the product id from your sanity project.
+   - `REACT_APP_SANITY_API_TOKEN` which contain the api token to read and write from your sanity dataset.
 
-to start the development server run:-
+4. change the name of sanity's dataset in `./src/client.js` file.
+
+5. Now you can start the development server run:-
 
 ```shell
 - $npm start
