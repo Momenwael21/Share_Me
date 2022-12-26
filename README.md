@@ -13,7 +13,7 @@ You can get live demo from here [Share Me](https://sharememw.netlify.app)
 
 ## Overview
 
-hare Me is a social media web app. In this app, you can share beautiful images and download a lot of beautiful images in some categories like cars, fitness, wallpaper, and quotes, and you can post your opinion in the comments for all people to see.
+Share Me is a social media web app. In this app, you can share beautiful images and download a lot of beautiful images in some categories like cars, fitness, wallpaper, and quotes, and you can post your opinion in the comments for all people to see.
 
 ## How to use
 
